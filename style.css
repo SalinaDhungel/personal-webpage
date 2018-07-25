@@ -231,15 +231,30 @@ body{
 }
 
 .container img {
-  max-height: 200px;
-  flex:1;
-  filter:grayscale(1);
-}
+	  max-height: 170px;
+	  flex:1;
+	  filter:grayscale(1);
+}	
 
 .container img:hover {
     filter: grayscale(0);
 }
 
+@media screen and (max-width: 800px){
+	.container img {
+	  max-height: 170px;
+	  flex:1;
+	  filter:grayscale(1);
+	}	
+}
+
+@media screen and (max-width: 700px){
+	.container img {
+	  max-height: 70px;
+	  flex:1;
+	  filter:grayscale(1);
+	}	
+}
 
 .contact{
 	background-image: url("contact.jpg");
@@ -269,16 +284,10 @@ body{
 .logo-list{
 	max-width: 450px;
 	margin-bottom: 0;
-
-}
-
-.logo-list-top{
 	margin: 0 auto;
+
 }
 
-.logo-list-bottom{
-	margin: 0 auto;
-}
 
 /*setting size of icons*/
 .logo img{
@@ -290,7 +299,6 @@ body{
 .logo-list li{
  text-decoration: none;
  list-style: none;
-
 }
 
 .logo img:hover{
@@ -301,19 +309,19 @@ body{
 .logo{
 	float: left;
 	display: inline-block;
-	padding: 20px;
+	padding: 30px;
 }
 
 /*2 social icons to go below the work related icons*/
 .social img{
 	width: 60px;
-	padding-bottom: 30px;
+	padding-bottom: 35px;
 }
 
 .logo-bottom{
-	padding: 20px;
-	margin: 0 auto;
-}
+	padding: 40px;
+/*	margin: 0 auto;
+*/}
 
 .social-text{
 	margin-top: 25px;
@@ -326,7 +334,7 @@ body{
 	color: #f4f4f4;
 	text-align: center;
 	clear: both;
-/*	margin: 0 auto;*/
+	margin: 0 auto;
 }
 
 .cv a{
@@ -342,6 +350,9 @@ body{
 	background-color: #f4f4f4;
 	color: #666;
 }
+
+
+
 /*
 https://www.nxworld.net/tips/css-scroll-down-button.html
 https://codepen.io/nxworld/pen/OyRrGy
