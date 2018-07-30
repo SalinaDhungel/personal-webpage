@@ -1,9 +1,4 @@
-/* Peach colour: f6b092
-actual peach FFBF7F
-Colour palette: http://www.color-hex.com/color-palette/6060 
-the blue from starry 022251 dark
-nice white pink FFFAFA
-bklue whitey f0eef3*/
+
 html{
 	height: 100%;
 	overflow: auto;
@@ -173,7 +168,6 @@ body{
 	color: #f4f4f4;
 }
 
-/*i need to ad more spacing between larger text*/
 .about-para {
 	font-family: 'Lato', sans-serif;
 	font-style: bold;
@@ -293,7 +287,6 @@ body{
 
 }
 
-
 /*setting size of icons*/
 .logo img{
 	width: 75px;
@@ -317,7 +310,7 @@ body{
 	padding: 30px;
 }
 
-/*2 social icons to go below the work related icons*/
+/*social icons to go below the work related icons*/
 .social img{
 	width: 60px;
 	padding-bottom: 35px;
@@ -325,16 +318,9 @@ body{
 
 .logo-bottom{
 	padding: 40px;
-/*	margin: 0 auto;
-*/}
-
-/*.social-text{
-	margin-top: 25px;
-	font-size: 20px;
 }
-*/
 
-/*the cv thing wont move????????*/
+
 .cv {
 	color: #f4f4f4;
 	text-align: center;
@@ -507,28 +493,3 @@ body{
 
 	}
 }
-
-
-
-
-
-
-/*
-https://www.nxworld.net/tips/css-scroll-down-button.html
-https://codepen.io/nxworld/pen/OyRrGy
-html
-<section id="section04" class="demo">
-  <h1>Scroll Down Button #4</h1>
-  <a href="#section05"><span></span>Scroll</a>
-</section>
-
-css
-#section04 { background: url(https://www.nxworld.net/example/css-scroll-down-button/bg04.jpg) center center / cover no-repeat;}
-
-js
-$(function() {
-  $('a[href*=#]').on('click', function(e) {
-    e.preventDefault();
-    $('html, body').animate({ scrollTop: $($(this).attr('href')).offset().top}, 500, 'linear');
-  });
-});*/
