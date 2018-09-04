@@ -16,7 +16,7 @@ body{
 	overscroll-behavior-y: none;
 
 }
- 
+
 .landing-page{
 	height: 100%;
 	width: 100%;
@@ -142,12 +142,12 @@ body{
 }
 
 @-webkit-keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
 @keyframes fade {
-  from {opacity: .4} 
+  from {opacity: .4}
   to {opacity: 1}
 }
 
@@ -248,7 +248,7 @@ body{
 	filter:grayscale(1);
 	flex: 1;
 
-}	
+}
 
 .container img:hover {
     filter: grayscale(0);
@@ -349,7 +349,7 @@ body{
 		max-height: 200px;
 		flex:0;
 		filter:grayscale(1);
-		}	
+		}
 
 	.about-grid{
 		margin-bottom: -200px;
@@ -362,7 +362,7 @@ body{
 	.landing-page{
 		max-height: 550px;
 		background-image: url("small-back.jpg");
-		background-attachment: scroll; 
+		background-attachment: scroll;
 
 
 	}
@@ -378,8 +378,8 @@ body{
 		margin-bottom: 0px;
 	}
 
-		
-	
+
+
 	.clouds{
 		margin-top: -190px;
 		background-attachment: scroll;
@@ -388,7 +388,7 @@ body{
 
 	.about{
 		background-attachment: scroll;
-	}	
+	}
 
 	.about-para {
 		margin: 10% auto;
@@ -404,7 +404,7 @@ body{
 	.container img {
 		max-height: 205px;
 		flex:0;
-	}	
+	}
 
 }
 
@@ -413,7 +413,7 @@ body{
 		.landing-page{
 		max-height: 500px;
 		background-image: url("small-back.jpg");
-		background-attachment: scroll; 
+		background-attachment: scroll;
 
 	}
 
@@ -426,7 +426,7 @@ body{
 	.container img {
 		max-height: 170px;
 		flex:0;
-		}	
+		}
 
 		.about-grid{
 		margin-bottom: -300px;
@@ -439,7 +439,7 @@ body{
 		.landing-page{
 		max-height: 380px;
 		background-image: url("small-back.jpg");
-		background-attachment: scroll; 
+		background-attachment: scroll;
 	}
 
 		.clouds{
@@ -454,7 +454,7 @@ body{
 	.container img {
 		max-height: 100px;
 		flex:0;
-		}	
+		}
 
 	.about-grid{
 		padding-bottom: 0px;
@@ -478,9 +478,13 @@ body{
 		background-attachment: scroll;
 
 	}
+
+	.page-title{
+		font-size: 300%;
+	}
 }
 
-@media screen and (max-width: 604px){
+@media screen and (max-width: 640px){
 		.clouds{
 		margin-top: -160px;
 		background-attachment: scroll;
@@ -489,7 +493,28 @@ body{
 	}
 
 		.title{
-		padding-bottom: 30px;
+		padding-bottom: 100px;
+		font-size: 400%;
 
 	}
+
+	.about-grid {
+		height: 1000px;
+	}
+
+	.contact-title{
+	font-size: 300%;
+}
+
+.about-para{
+	font-size: 80%;
+	width: 95%;
+	line-height:2em;
+
+}
+
+.about-para span {
+	font-size: inherit;
+}
+
 }
